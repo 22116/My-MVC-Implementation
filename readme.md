@@ -1,6 +1,6 @@
-#Quiz api
+# Quiz api
 Clear php project with csharp form client side
-##Instalation
+## Instalation
 1. Upload project files to your system and allow redirection
 2. Open `configuration.ini` and fill database section with yours params
 (example you can find in `configuration.example.ini`)
@@ -8,5 +8,5 @@ Clear php project with csharp form client side
 ```
 vendor/bin/doctrine orm:schema-tool:update --force --dump-sql
 ```
-##Client
+## Client
 Look **this repo** (todo)
