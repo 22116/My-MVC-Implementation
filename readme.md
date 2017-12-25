@@ -1,5 +1,5 @@
 # Quiz api
-Clear php project with csharp form client side
+Api to work with question application data
 ## Instalation
 1. Upload project files to your system and allow redirection
 2. Open `configuration.ini` and fill database section with yours params
