@@ -2,3 +2,4 @@ configuration.ini
 .idea
 .DS_Store
 resources/cache/*
+vendor/*
