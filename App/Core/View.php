@@ -14,7 +14,7 @@ class View
 		$loader = new Twig_Loader_Filesystem(ROOT_PATH . '/resources/views');
 		$params = [];
 		if (!DEV_MODE) {
-			$params['cache'] = ROOT_PATH . '/resources/cache'
+			$params['cache'] = ROOT_PATH . '/resources/cache';
 		}
 		$this->twig = new Twig_Environment($loader, [$params]);
 	}
